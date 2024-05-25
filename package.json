@@ -1,0 +1,11 @@
+{
+  "name": "mono-repo-scripts",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start:components": "cd ./module-01-components-styles &&  ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  }
+}
